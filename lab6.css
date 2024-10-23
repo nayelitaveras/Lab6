@@ -1,0 +1,22 @@
+.navbar{
+    background-color: aliceblue;
+    position: static;
+    display: inline-block;
+}
+
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.inner{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    transition-duration: 2s;
+    transition-property: inherit;
+    transition-timing-function: ease-in-out;
+}
